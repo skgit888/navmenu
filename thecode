@@ -1,0 +1,16 @@
+.responsive-menu-icon::before {content: "\f333";
+							 display: block;
+							 font: 24px/1 "dashicons";
+							 Margin: 0px -75px 0px auto;						
+							 padding:10px;
+							 text-align: center;}
+.responsive-menu-icon::after {content: "MENU";
+							 display: block;
+							 font: 24px/1 "dashicons";
+							 Margin: -49px 0px 0px -25px; 
+							 padding:10px;
+							 text-align: center;}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {
+	.responsive-menu-icon::after{ margin: -45px 0px 0px -25px; }
+}
